@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/train/images
+test: ../dataset/train/images
+
+nc: 20
+names: ['Fresh-Apple', 'Fresh-Mango', 'FreshBanana', 'FreshBellpepper', 'FreshCarrot', 'FreshCucumber', 'FreshOrange', 'FreshPotato', 'FreshStrawberry', 'FreshTomato', 'Rotten-Apple', 'RottenBanana', 'RottenBellpepper', 'RottenCarrot', 'RottenCucumber', 'RottenMango', 'RottenOrange', 'RottenPotato', 'RottenStrawberry', 'RottenTomato']
+
+roboflow:
+  workspace: saket-kourav-intey
+  project: fresh-or-rotten-detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saket-kourav-intey/fresh-or-rotten-detection/dataset/2
